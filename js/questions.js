@@ -457,6 +457,195 @@ const questions = [
     answer: 0,
     topic: "CPU",
   },
+  {
+    id: 42,
+    q: "Is RAM volatile or non-volatile?",
+    choices: [
+      "Volatile (data is lost when the power is turned off)",
+      "Non-volatile (data is not lost when the power is turned off)",  
+    ],
+    answer: 0,
+    topic: "CPU",
+  },
+  {
+    id: 43,
+    q: "Is ROM volatile or non-volatile?",
+    choices: [
+      "Volatile (data is lost when the power is turned off)",
+      "Non-volatile (data is not lost when the power is turned off)",  
+    ],
+    answer: 1,
+    topic: "CPU",
+  },
+  {
+    id: 44,
+    q: "What does RAM store?",
+    choices: [
+      "The programs and data that a user is currently using, and the parts of the operating system that are running currently.",
+      "Important settings (known as BIOS/basic input-output setting) for the computer's hardware, which check that all required hardware is present before the computer starts up, plus the instructions needed to start up the computer.",  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 45,
+    q: "What does ROM store?",
+    choices: [
+      "The programs and data that a user is currently using, and the parts of the operating system that are running currently.",
+      "Important settings (known as BIOS/basic input-output setting) for the computer's hardware, which check that all required hardware is present before the computer starts up, plus the instructions needed to start up the computer.",  
+    ],
+    answer: 1,
+    topic: "primary storage",
+  },
+  {
+    id: 46,
+    q: "Is virtual memory part of primary storage or part of secondary storage?",
+    choices: [
+      "primary storage","secondary storage"  
+    ],
+    answer: 1,
+    topic: "primary storage",
+  },
+  {
+    id: 47,
+    q: "What is the purpose of virtual memory?",
+    choices: [
+      "To supplement the main memory when all the RAM is already being used.",
+      "To supplement the main memory when some of the RAM is already being used."  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 48,
+    q: "Which statement is correct?",
+    choices: [
+      "Programs and data that are currently in use remain in the RAM.",
+      "Programs and data that are in the RAM, but not currently in use, are moved to virtual memory. This makes space available in RAM for new programs and data."  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 49,
+    q: "Which statement is correct?",
+    choices: [
+      "Programs and data that are not currently in use remain in the RAM.",
+      "Programs and data that are in the RAM, but not currently in use, are moved to virtual memory. This makes space available in RAM for new programs and data."  
+    ],
+    answer: 1,
+    topic: "primary storage",
+  },
+  {
+    id: 50,
+    q: "Which of these is quicker?",
+    choices: [
+      "Fetching data from RAM",
+      "Fetching data from virtual memory."  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 51,
+    q: "What does 'volatile' mean in the context of hardware?",
+    choices: [
+      "When power is lost, data and programs are lost too.",
+      "When power is lost, data and programs are not lost"  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 52,
+    q: "Is primary storage volatile or non-volatile?",
+    choices: [
+      "volatile",
+      "non-volatile",  
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 53,
+    q: "Why do we need secondary storage?",
+    choices: [
+      "to store programs and data in the long-term",
+      "to gain access to programs and data as quickly as possible",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 54,
+    q: "Is RAM a type of primary storage or a type of secondary storage?",
+    choices: [
+      "primary storage",
+      "secondary storage",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 55,
+    q: "Is ROM a type of primary storage or a type of secondary storage?",
+    choices: [
+      "primary storage",
+      "secondary storage",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 56,
+    q: "Are CPU registers a type of primary storage or a type of secondary storage?",
+    choices: [
+      "primary storage",
+      "secondary storage",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 57,
+    q: "Is cache a type of primary storage or a type of secondary storage?",
+    choices: [
+      "primary storage",
+      "secondary storage",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 58,
+    q: "Why can't ROM be used as secondary storage?",
+    choices: [
+      "Because it is ready-only and can't be changed. Also, it only has a small amount of memory.",
+      "Because it is non-volatile.",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  {
+    id: 59,
+    q: "Why can't RAM be used as secondary storage?",
+    choices: [
+      "Because it is volatile and loses its data if it loses power.",
+      "Because the CPU can fetch data from it quickly.",
+    ],
+    answer: 0,
+    topic: "primary storage",
+  },
+  // {
+  //   id: 60,
+  //   q: "Is the operating system primary or secondary storage?",
+  //   choices: [
+  //     "Secondary",
+  //     "Primary",
+  //   ],
+  //   answer: 0,
+  //   topic: "primary storage",
+  // },
 
 
    
